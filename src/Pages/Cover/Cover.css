@@ -1,0 +1,51 @@
+/* Cover.css */
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2e2e2;
+  padding: 20px;
+  overflow: hidden; /* Hide content overflow for the animation */
+}
+
+.cover-content {
+  text-align: left;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.cover-content h1{
+    font-size: 3rem;
+}
+.cover-content p{
+    width: 60%;
+}
+.cta-button {
+  opacity: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .cover {
+    flex-direction: column;
+  }
+
+  .cover-content {
+    text-align: center;
+  }
+
+  .cover-content h1 {
+    font-size: 2rem;
+  }
+
+  .cover-content p {
+    font-size: 1.2rem;
+  }
+}
+
+.cover-image img {
+  width: 600px;
+  height: 500px;
+  border-radius: 3rem;
+}
