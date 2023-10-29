@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development",
+      "description": "Creating awesome websites and web applications.",
+      "iconClass": "web-development-icon"
+    },
+    {
+      "id": 2,
+      "title": "Graphic Design",
+      "description": "Designing stunning visuals and graphics.",
+      "iconClass": "graphic-design-icon"
+    },
+    {
+      "id": 3,
+      "title": "Data Science",
+      "description": "Unlocking insights from data using data science techniques.",
+      "iconClass": "data-science-icon"
+    },
+    {
+      "id": 4,
+      "title": "Artificial Intelligence",
+      "description": "Building intelligent systems using AI technologies.",
+      "iconClass": "ai-icon"
+    }
+  ]
+  
