@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development Fundamentals",
+      "description": "A comprehensive introduction to web development.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 49.99,
+      "rating": 4.5,
+      "link": "/web-development-fundamentals"
+    },
+    {
+      "id": 2,
+      "title": "Graphic Design Masterclass",
+      "description": "Learn the art of graphic design from experts.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 59.99,
+      "rating": 4.8,
+      "link": "/graphic-design-masterclass"
+    },
+    {
+      "id": 3,
+      "title": "Data Science Essentials",
+      "description": "Unlock insights from data with data science techniques.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 39.99,
+      "rating": 4.2,
+      "link": "/data-science-essentials"
+    },
+    {
+      "id": 4,
+      "title": "Artificial Intelligence Basics",
+      "description": "An introduction to the world of AI and machine learning.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 69.99,
+      "rating": 4.7,
+      "link": "/ai-basics"
+    },
+    {
+      "id": 5,
+      "title": "JavaScript Mastery",
+      "description": "Become a JavaScript pro with this in-depth course.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 54.99,
+      "rating": 4.6,
+      "link": "/javascript-mastery"
+    },
+    {
+      "id": 6,
+      "title": "UI/UX Design Principles",
+      "description": "Learn the principles of user interface and user experience design.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "link": "/ui-ux-design-principles"
+    },
+    {
+      "id": 7,
+      "title": "Python for Data Analysis",
+      "description": "Master Python for data analysis and visualization.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 59.99,
+      "rating": 4.8,
+      "link": "/python-data-analysis"
+    },
+    {
+      "id": 8,
+      "title": "Machine Learning Fundamentals",
+      "description": "Get started with machine learning and predictive analytics.",
+      "image": "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2020/10/CDG_blog_post_image_02-850x412.jpg",
+      "price": 64.99,
+      "rating": 4.6,
+      "link": "/ml-fundamentals"
+    }
+  ]
+  

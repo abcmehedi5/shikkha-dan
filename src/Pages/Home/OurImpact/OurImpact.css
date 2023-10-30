@@ -1,0 +1,60 @@
+/* OurImpact.css */
+
+.our-impact {
+  display: flex;
+  flex-direction: column; /* Stack content vertically on small screens */
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.impact-image {
+  text-align: center;
+  margin-top: 20px; /* Add spacing between content and image on small screens */
+}
+
+.impact-image img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.impact-content {
+  padding: 20px;
+}
+
+.impact-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff; /* Customize the color as needed */
+}
+
+.impact-content p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .our-impact {
+    flex-direction: row; /* Place content side by side on larger screens */
+    justify-content: space-between;
+  }
+
+  .impact-image {
+    margin-top: 0;
+    flex: 1;
+  }
+
+  .impact-image img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .impact-content {
+    flex: 1;
+  }
+}

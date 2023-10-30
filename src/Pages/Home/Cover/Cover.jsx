@@ -1,6 +1,24 @@
 import React from "react";
 import "./Cover.css"; // Create a CSS file for the Cover styles
+import Slider from "../Slider/Slider";
 const Cover = () => {
+  const sliderItems = [
+    {
+      image:
+        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
+      alt: "Slide 1",
+    },
+    {
+      image:
+        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
+      alt: "Slide 2",
+    },
+    {
+      image:
+        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
+      alt: "Slide 3",
+    },
+  ];
   return (
     <div className="cover">
       <div className="cover-content animated">
@@ -14,12 +32,14 @@ const Cover = () => {
           Explore Courses
         </button>
       </div>
-      <div className="cover-image">
-        <img
+      <div >
+        {/* <img
           className="animated fadeInUp"
           src="https://www.icegif.com/wp-content/uploads/2021/12/icegif-873.gif"
           alt=""
-        />
+        /> */}
+
+        <Slider items={sliderItems}/>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ const iconMap = {
 
 const ServicePage = () => {
   return (
-    <section>
+    <section className="container">
       <SectionTitle
         title="Service"
         description="Lorem, ipsum dolor sit amet consectetur adipisicing elit."

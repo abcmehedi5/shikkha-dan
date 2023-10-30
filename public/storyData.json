@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "date": "2023-05-15",
+      "image": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "batch": "Web Development - Batch A",
+      "story": "I enrolled in the Web Development program and it was an amazing experience. The instructors were fantastic, and I learned so much in just a few weeks. I'm now a confident web developer and have even started working on freelance projects."
+    },
+    {
+      "id": "2",
+      "name": "David Smith",
+      "date": "2023-06-20",
+      "image": "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm328-366-tong-08_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=6a37204762fdd64612ec2ca289977b5e",
+      "batch": "Data Science - Batch B",
+      "story": "The Data Science program was a game-changer for me. I gained hands-on experience with real-world data and machine learning. Thanks to this course, I landed a job as a data analyst and couldn't be happier."
+    },
+    {
+      "id": "3",
+      "name": "David Smith",
+      "date": "2023-06-20",
+      "image": "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm328-366-tong-08_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=6a37204762fdd64612ec2ca289977b5e",
+      "batch": "Data Science - Batch B",
+      "story": "The Data Science program was a game-changer for me. I gained hands-on experience with real-world data and machine learning. Thanks to this course, I landed a job as a data analyst and couldn't be happier."
+    },
+    {
+      "id": "4",
+      "name": "Eva Martinez",
+      "date": "2023-07-10",
+      "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?cs=srgb&dl=pexels-italo-melo-2379005.jpg&fm=jpg",
+      "batch": "Mobile App Development - Batch C",
+      "story": "I always wanted to build mobile apps, and this course made my dream come true. I learned how to develop apps for both Android and iOS. Now I'm working on my own app project."
+    },
+    {
+      "id": "5",
+      "name": "Michael Brown",
+      "date": "2023-08-05",
+      "image": "https://images.pexels.com/photos/17594387/pexels-photo-17594387/free-photo-of-portrait-of-a-man.jpeg",
+      "batch": "Machine Learning - Batch D",
+      "story": "The Machine Learning course was challenging, but it paid off. I'm now a machine learning engineer at a tech company. This program gave me the skills to make a real impact in the industry."
+    },
+    {
+      "id": "6",
+      "name": "Michael Brown",
+      "date": "2023-08-05",
+      "image": "https://images.pexels.com/photos/17594387/pexels-photo-17594387/free-photo-of-portrait-of-a-man.jpeg",
+      "batch": "Machine Learning - Batch D",
+      "story": "The Machine Learning course was challenging, but it paid off. I'm now a machine learning engineer at a tech company. This program gave me the skills to make a real impact in the industry."
+    }
+  ]
+  
