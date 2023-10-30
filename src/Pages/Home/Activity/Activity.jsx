@@ -21,9 +21,9 @@ const Activity = () => {
     },
   ];
   return (
-    <div className="activity">
+    <div className="activity" >
         <SectionTitle title={"Our Activity"} description={"loremLorem ipsum dolor sit amet, consectetur adipiscing elit. "}/>
-      <Slider items={sliderItems} />
+      <Slider items={sliderItems}  />
     </div>
   );
 };

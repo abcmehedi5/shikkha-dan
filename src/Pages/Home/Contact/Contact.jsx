@@ -5,8 +5,17 @@ import SectionTitle from "../../../Components/SectionTitle/sectionTitle";
 const Contact = () => {
   return (
     <section>
-        <SectionTitle title={"Contact Us"} description={"Have questions or need assistance? Feel free to reach out to us"}/>
-      <div className="contact-container container">
+      <SectionTitle
+        title={"Contact Us"}
+        description={
+          "Have questions or need assistance? Feel free to reach out to us"
+        }
+      />
+      <div
+        className="contact-container container"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <div className="contact-text">
           <h2>Contact Us</h2>
           <p>
@@ -16,7 +25,11 @@ const Contact = () => {
             assistance? Feel free to reach out to us. We're here to help you.
           </p>
         </div>
-        <div className="contact-form">
+        <div
+          className="contact-form"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <form>
             <div className="form-group">
               <label htmlFor="name">Name</label>

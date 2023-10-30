@@ -10,13 +10,21 @@ const OurImpact = () => {
         description="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
       />
       <div className="our-impact">
-        <div className="impact-image">
+        <div
+          className="impact-image"
+          data-aos="zoom-out-down"
+          data-aos-duration="1000"
+        >
           <img
             src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4LWq8Yujum02JHPONHMkun/71d421d9168094b73d4568900be533a0/GettyImages-1255905237.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h="
             alt="Our Impact"
           />
         </div>
-        <div className="impact-content">
+        <div
+          className="impact-content"
+          data-aos="zoom-out-down"
+          data-aos-duration="1000"
+        >
           <h2>Our Mission</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus

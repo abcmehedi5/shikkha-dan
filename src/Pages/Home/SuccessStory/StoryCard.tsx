@@ -4,7 +4,7 @@ import "./SuccessStory.css"; // Create a CSS file for the StoryCard styles
 const StoryCard = ({ storyProps }) => {
   const { name, date, image, batch, story } = storyProps;
   return (
-    <div className="story-card">
+    <div className="story-card" data-aos="fade-up" data-aos-duration="1500">
       <div className="card-header">
         <img src={image} alt={name} className="avatar" />
         <div className="header-text">

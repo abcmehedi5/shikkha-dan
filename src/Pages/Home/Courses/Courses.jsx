@@ -12,7 +12,12 @@ const Courses = () => {
       />
       <div className="courses">
         {courseData.map((course) => (
-          <div className="course-card" key={course.id}>
+          <div
+            className="course-card"
+            key={course.id}
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
             <img src={course.image} alt={course.title} />
             <h3>{course.title}</h3>
             <p>{course.description}</p>

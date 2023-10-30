@@ -18,7 +18,11 @@ const ServicePage = () => {
         title="Service"
         description="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
       />
-      <div className="service-page">
+      <div
+        className="service-page"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
         {servicesData.map((service) => (
           <div className="service-card" key={service.id}>
             {iconMap[service.iconClass]}
