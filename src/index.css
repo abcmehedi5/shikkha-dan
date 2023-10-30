@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap");
 
 .active {
   color: #1cb0f8;
@@ -6,15 +6,15 @@
   color: #1cb0f8;
   font-weight: bold;
 }
-body{
-  font-family: 'Exo 2', sans-serif;
+body {
+  font-family: "Exo 2", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 /*default styles */
-.container{
-  padding:0;
+.container {
+  padding: 0;
 }
 
 .btn {
@@ -24,8 +24,9 @@ body{
   border-radius: 8px;
   font-size: 16px;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
-.btn:hover{
+.btn:hover {
   background-color: #1591cf;
   cursor: pointer;
 }
@@ -39,7 +40,6 @@ body{
   opacity: 0;
 }
 
-
 @keyframes fadeInUp {
   from {
     transform: translateY(20px);
@@ -51,9 +51,8 @@ body{
   }
 }
 
-
 @media (min-width: 768px) {
-  .container{
-    padding:0 4rem;
+  .container {
+    padding: 0 4rem;
   }
 }
