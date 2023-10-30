@@ -47,6 +47,7 @@ const Footer = () => {
             </a>
           </div>
           {/* <input className='subscribe' type="" placeholder='Subscribe' /> */}
+          
         </div>
       </div>
     </footer>

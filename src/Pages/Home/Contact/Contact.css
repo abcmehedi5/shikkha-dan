@@ -1,0 +1,73 @@
+/* Contact.css */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 6rem;
+  }
+  
+  .contact-text {
+    text-align: left; /* Align the text to the left for desktop */
+    flex-basis: 50%; /* Use 50% of the container width for text */
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 400px;
+    text-align: left; /* Align the form to the left for desktop */
+    flex-basis: 50%; /* Use 50% of the container width for the form */  
+  }
+  
+  .contact-text h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+  }
+  
+  .contact-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+  }
+  
+  .contact-form input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+  
+    .contact-text,
+    .contact-form {
+      flex-basis: 100%; /* Full width for text and form on smaller screens */
+    }
+  }
+  

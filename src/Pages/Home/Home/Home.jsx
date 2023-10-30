@@ -6,6 +6,7 @@ import OurImpact from "../OurImpact/OurImpact";
 import SuccessStory from "../SuccessStory/SuccessStory";
 import AboutMe from "../AboutMe/AboutMe";
 import Activity from "../Activity/Activity";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
  
@@ -15,9 +16,10 @@ const Home = () => {
       <Service />
       <Courses />
       <OurImpact />
-      <SuccessStory />
       <AboutMe />
+      <SuccessStory />
       <Activity/>
+      <Contact/>
     </div>
   );
 };
