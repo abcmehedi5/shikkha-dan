@@ -83,6 +83,6 @@
 /* Responsive styles */
 @media (max-width: 768px) {
   .slider-item img {
-    max-width: 100%;
+    max-width: 80vh;
   }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Slider.css"; // Create a CSS file for the Slider styles
+import "./Slider.css"; 
 import { FcNext, FcPrevious } from "react-icons/fc";
 
 const Slider = ({ items }) => {
