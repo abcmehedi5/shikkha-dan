@@ -6,16 +6,17 @@ const Cover = () => {
     {
       image:
         "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
+      alt: "Slide 2",
+    },
+
+    {
+      image:
+        "https://soliloquywp.com/wp-content/uploads/2019/04/nb_esc_cover.jpg",
       alt: "Slide 1",
     },
     {
       image:
-        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
-      alt: "Slide 2",
-    },
-    {
-      image:
-        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
+        "https://soliloquywp.com/wp-content/uploads/2018/10/nb_fss_cover-300x145.jpg",
       alt: "Slide 3",
     },
   ];
@@ -32,14 +33,8 @@ const Cover = () => {
           Explore Courses
         </button>
       </div>
-      <div >
-        {/* <img
-          className="animated fadeInUp"
-          src="https://www.icegif.com/wp-content/uploads/2021/12/icegif-873.gif"
-          alt=""
-        /> */}
-
-        <Slider items={sliderItems}/>
+      <div>
+        <Slider items={sliderItems} />
       </div>
     </div>
   );

@@ -5,26 +5,10 @@ import Courses from "../Courses/Courses";
 import OurImpact from "../OurImpact/OurImpact";
 import SuccessStory from "../SuccessStory/SuccessStory";
 import AboutMe from "../AboutMe/AboutMe";
-import Slider from "../Slider/Slider";
+import Activity from "../Activity/Activity";
 
 const Home = () => {
-  const sliderItems = [
-    {
-      image:
-        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
-      alt: "Slide 1",
-    },
-    {
-      image:
-        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
-      alt: "Slide 2",
-    },
-    {
-      image:
-        "https://soliloquywp.com/wp-content/uploads/2018/11/nb_ist_cover.jpg",
-      alt: "Slide 3",
-    },
-  ];
+ 
   return (
     <div>
       <Cover />
@@ -33,7 +17,7 @@ const Home = () => {
       <OurImpact />
       <SuccessStory />
       <AboutMe />
-      <Slider items={sliderItems} />
+      <Activity/>
     </div>
   );
 };
